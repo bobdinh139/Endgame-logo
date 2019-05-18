@@ -13,7 +13,7 @@ union() {
 }
 translate(v=[-5.7,-3.2,0]) cube([2.5,2.5,1]);
 }
-scale ([1.2,1.35,1]) 
+scale ([1,1.35,1]) 
 rotate([0,0,45]){
 translate(v=[-2,-1.2,0]) triangle(2.1,2.2,0.01,1);
 }
@@ -72,9 +72,9 @@ module triangle3(a,b,r1,h1){
 
 
 rotate([0,0,90]){
-scale ([1.1,1.25,1])
+scale ([0.97,1.3,1])
 rotate([0,0,45]){
-translate(v=[-2.1,-1.2,0]) triangle(2.1,2.2,0.01,1);
+translate(v=[-2,-1.15,0]) triangle(2,2,0.01,1);
 }
 
 
